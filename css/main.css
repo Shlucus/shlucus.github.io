@@ -362,7 +362,7 @@ section .row span {
   justify-content: center;
 }
 #about .about-wrapper__image img {
-  max-width: 350px;
+  max-width: 450px;
   width: 100%;
 }
 @media (max-width: 75em) {
@@ -689,7 +689,7 @@ section .row span {
 }
 #projects .project-wrapper__image .thumbnail {
   border: none;
-  box-shadow: 8px 8px 9px 7px rgba(174, 174, 192, 0.4), -5px -5px 15px 7px #fff;
+  box-shadow: #0e0d0d 0px 0px 20px;
 }
 #projects .project-wrapper__image .thumbnail .img-fluid {
   width: 100%;
