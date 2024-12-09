@@ -68,6 +68,8 @@ Have fun creating your portfolio on this template!!! -->
     <!-- link tags -->
     <link rel="preload" as="style" href="./css/main.css" />
     <link rel="stylesheet" href="./css/main.css" />
+    <link rel="preload" as="style" href="./css/github-button.css" />
+    <link rel="stylesheet" href="./css/github-button.css" />
 
     <!-- FontAwesome Icons link -->
     <link
@@ -134,8 +136,8 @@ Have fun creating your portfolio on this template!!! -->
               class="img-fluid"
               src="./assets/profile.png"
               alt="Profile Image"
-              width="450"
-              height="350"
+              width="550"
+              height="450"
             />
           </div>
           <div class="about-wrapper__info">
@@ -167,12 +169,13 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">The PwnPal</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                <i>Jan 2024 - Present</i>
+                <br><br>
+                Creating a pocket-sized network pentesting device using Raspberry Pi. Integrated with
+                Kali Linux, the ‘PwnPal’ offers standalone power, an integrated touch display, and the
+                flexibility to conduct on-the-go ethical hacking procedures.
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -180,17 +183,15 @@ Have fun creating your portfolio on this template!!! -->
                   target="_blank"
                   rel="noopener noreferrer"
                   class="cta-btn cta-btn--hero cta-btn--projects"
-                  >See Live</a
-                >
-                <a href="#" target="_blank" class="cta-btn text-color-main"
-                  >Source Code</a
+                  >
+                  View on Github</a
                 >
               </div>
             </div>
 
             <div class="project-wrapper__image">
               <a href="#" target="_blank" rel="noopener noreferrer">
-                <div class="thumbnail rounded">
+                <div class="thumbnail rounded " data-hover="./assets/!Google.png">
                   <img
                     src="./assets/PwnPal.png"
                     class="img-fluid"
@@ -207,12 +208,12 @@ Have fun creating your portfolio on this template!!! -->
           <!-- Each .row is a project -->
           <article class="row">
             <div class="project-wrapper__text">
-              <h3 class="project-wrapper__text-title">Project Title</h3>
+              <h3 class="project-wrapper__text-title">Google Captive Portal</h3>
               <p class="project-wrapper__text-info">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                Deleniti voluptas, sit nam perspiciatis tempore aspernatur ullam
-                necessitatibus impedit repellendus vero sed ipsa eos beatae ab
-                sint saepe nostrum! Enim, perferendis.
+                <i>Jul 2023 - Nov 2023</i>
+                <br><br>
+                A 1:1 realistic Google captive portal for Phishing on a Flipper-Zero.
+                Using a Flipper Zero, an ESP32 WIFI module and the HTML file within this repo, you can create a dummy phishing attack to see what goes on under the hood! 
               </p>
               <div class="project-wrapper__text-btns">
                 <a
@@ -232,7 +233,7 @@ Have fun creating your portfolio on this template!!! -->
               <a href="#" target="_blank" rel="noopener noreferrer">
                 <div class="thumbnail rounded">
                   <img
-                    src="./assets/project.png"
+                    src="./assets/!Google.png"
                     class="img-fluid"
                     alt="Project Image"
                     width="1366"
@@ -288,6 +289,40 @@ Have fun creating your portfolio on this template!!! -->
     </section>
     <!-- End Projects Section -->
 
+    <!-- Experience Section -->
+    <section id="experience">
+      <div class="container">
+        <h2 class="section-title">Experience</h2>
+        <div class="row experience-wrapper">
+          <div class="experience-wrapper__image">
+            <img
+              class="img-fluid"
+              src="./assets/rbc.png"
+              alt="Profile Image"
+              width="550"
+              height="450"
+            />
+          </div>
+          <div class="experience-wrapper__info">
+            <h3 class="experience-wrapper__text-title">Developer - Identity and Access Management</h3>
+            <p class="experience-wrapper__info-text">
+                <kbd>Royal Bank of Canada - Internship</kbd>
+                <br><br>
+                I’m an ambitious Computer Science student at John Abbott College and I love to experiment with cybersecurity and ethical hacking.
+             
+            </p>
+            <p class="experience-wrapper__info-text">
+                From the age of 10, I began exploring tech by creating a YouTube channel to share Roblox coding tutorials and game bugs/exploits. 
+                Recognizing the countless hours I spent deepening my knowledge beyond the classroom, I set a lifelong goal to dive into the vast field of cybersecurity and contribute to its future, one step at a time.   
+            </p>
+            <span class="experience-wrapper__cta">
+              <a href="./assets/Resume/LalumièreLucas.pdf" class="cta-btn cta-btn--resume">View Resume</a>
+            </span>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <!-- Contact Section -->
     <section id="contact">
       <div class="container">
@@ -299,6 +334,9 @@ Have fun creating your portfolio on this template!!! -->
       </div>
     </section>
     <!-- END Contact Section -->
+
+
+
 
     <!-- Footer Section -->
     <footer class="footer">
@@ -350,12 +388,12 @@ Have fun creating your portfolio on this template!!! -->
         </div>
         <hr />
         <p class="footer__text">
-          &copy; <span id="year"></span> - Template by
+          &copy; <span id="year"></span> - Made by
           <a
-            href="https://github.com/AnilSeervi"
+            href="https://github.com/Shlucus"
             target="_blank"
             rel="noopener noreferrer"
-            >Anil Seervi</a
+            >Lucas Lalumière</a
           >. <br />Made with &hearts;
         </p>
       </div>
