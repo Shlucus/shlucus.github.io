@@ -9,11 +9,11 @@ function typeWriter() {
   var txt = words[wordIndex];
 
   if (i < txt.length && !isDeleting) {
-    element.innerHTML = txt.substring(0, i + 1) + '<span class="cursor">_</span>';
+    element.innerHTML = txt.substring(0, i + 1) + '<span class="cursor">│</span>';
     i++;
     setTimeout(typeWriter, speed);
   } else if (i > 0 && isDeleting) {
-    element.innerHTML = txt.substring(0, i - 1) + '<span class="cursor">_</span>';
+    element.innerHTML = txt.substring(0, i - 1) + '<span class="cursor">│</span>';
     i--;
     setTimeout(typeWriter, speed);
   } else {
