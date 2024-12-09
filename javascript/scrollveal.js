@@ -62,6 +62,21 @@ ScrollReveal().reveal(".project-wrapper__image", {
   origin: window.innerWidth > 768 ? "right" : "bottom",
 });
 
+
+ScrollReveal().reveal(".experience-wrapper__image", {
+  ...defaultProps,
+  delay: 600,
+  scale: 0.5,
+});
+
+ScrollReveal().reveal(".experience-wrapper__info", {
+  ...defaultProps,
+  delay: 700,
+  distance: "100px",
+  origin: window.innerWidth > 768 ? "left" : "top",
+});
+
+
 /* Contact Section */
 ScrollReveal().reveal(".contact-wrapper", {
   ...defaultProps,
