@@ -9,11 +9,11 @@ function typeWriter() {
   var txt = words[wordIndex];
 
   if (i < txt.length && !isDeleting) {
-    element.innerHTML += txt.charAt(i);
+    element.innerHTML = txt.substring(0, i + 1) + '<span class="cursor">_</span>';
     i++;
     setTimeout(typeWriter, speed);
   } else if (i > 0 && isDeleting) {
-    element.innerHTML = txt.substring(0, i - 1);
+    element.innerHTML = txt.substring(0, i - 1) + '<span class="cursor">_</span>';
     i--;
     setTimeout(typeWriter, speed);
   } else {
@@ -27,5 +27,5 @@ function typeWriter() {
 
 // Call the typeWriter function with a 1-second delay when the page loads
 window.onload = function() {
-  setTimeout(typeWriter, 2000); // 1000 milliseconds = 1 second
+  setTimeout(typeWriter, 2000); // 2000 milliseconds = 2 seconds
 };
