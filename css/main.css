@@ -365,6 +365,7 @@ section .row span {
   max-width: 450px;
   width: 100%;
   border-radius: 15px;
+  box-shadow: #0e0d0d 0px 0px 20px;
 }
 @media (max-width: 75em) {
   #about .about-wrapper__image {
@@ -447,6 +448,7 @@ section .row span {
     /* position:absolute; */
     overflow: hidden;
   }
+
   
   #hero-video {
     position: fixed;
@@ -556,6 +558,17 @@ section .row span {
     font-size: 2rem;
   }
 }
+
+#demo{
+  position: absolute;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 1rem; /* Adjust the font size as needed */
+  /* background-color: #f5f5f5; Optional:  */
+  padding: 0.2rem 0.4rem; /* Optional: Add some padding */
+  border-radius: 4px; /* Optional: Add rounded corners */
+}
+
+
 .scroll-down-link {
   position: absolute;
   left: 50%;
