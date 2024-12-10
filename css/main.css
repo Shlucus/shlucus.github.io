@@ -853,3 +853,36 @@ section .row span {
   text-align: center;
   margin-top: 3.2rem;
 }
+
+.contact-wrapper__info {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Center horizontally */
+  text-align: center; /* Center text */
+  color : #fff;
+}
+
+
+
+.contact-wrapper__info svg {
+  margin-right: 1rem; /* Adjust the margin as needed */
+  margin-bottom: 2.5rem;
+}
+
+#contact-box {
+  display: flex;
+  justify-content: right;
+  align-items: right;
+  flex-direction: column;
+  text-align: right;
+  margin-top: 3.2rem;
+}
+
+
+#contact-box a{
+  color: #fff;
+  text-decoration: underline;
+}
+
+
+
