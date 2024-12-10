@@ -1,6 +1,6 @@
 var i = 0;
 var wordIndex = 0;
-var words = ['Ethical Hacker', 'Software Developer', 'Tech Enthusiast', 'Hackathon fanatic', 'Rock Climber']; /* The words to type */
+var words = ['Ethical Hacker', 'Software Developer', 'Tech Enthusiast', 'Hackathon fanatic', 'Rock Climber', 'IT Technician', 'Guitarist']; /* The words to type */
 var speed = 50; /* The speed/duration of the effect in milliseconds */
 var isDeleting = false;
 
